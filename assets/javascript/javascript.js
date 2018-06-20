@@ -100,8 +100,8 @@ var game = {
         for(var i=0;i<questions[game.currentQuestion].answers.length;i++){
             $("#subwrapper").append('<button class="answer-button" id="button-'+i+'" data-name="'+questions[game.currentQuestion].answers[i]+'">'+questions[game.currentQuestion].answers[i]+'</button>');
         }
-        
     },
+
     nextQuestion: function(){
         game.counter = 30;
         $("#counter").html(game.counter);
@@ -161,12 +161,11 @@ var game = {
     },    
     reset: function(){
         game.currentQuestion = 0;
-        game.counter = 0;
+        game.counter = 30;
         game.correct = 0;
         game.incorrect = 0;
         game.unanswered = 0;
         game.loadQuestion();
-
     },
 
 }

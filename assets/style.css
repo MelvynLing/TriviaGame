@@ -1,0 +1,36 @@
+
+h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+body{
+    height: 100%;
+    background-image: url(../assets/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+
+#wrapper{
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 725px;
+    border: 2px solid white;
+        }
+
+#subwrapper {
+    border-top: 2px solid white;
+}
+
+
+
+button{
+    color:green;
+    background-color: goldenrod;
+    border: 2px solid white;
+    margin: 2px;
+    width: 95%;
+    font-size: 25px;
+}
