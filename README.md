@@ -1,7 +1,7 @@
 # World Cup Trivia Game
 []
 
-Check out the live app below:
+* Check out the live app below: * 
 https://melvynling.github.io/TriviaGame/
 
 ## Objective:
